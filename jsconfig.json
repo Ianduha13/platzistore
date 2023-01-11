@@ -1,8 +1,23 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "../react-practico/srcreact-practico/srcreact-practico/src",
     "paths": {
       "@pages":["pages/"],
-    }
+    "@components":[
+      "components/"
+    ],
+  "@containers":[
+      "containers/"
+    ],
+  "@icons":[
+      "assets/icons/"
+    ],
+  "@logos":[
+      "assets/logos/"
+    ],
+    "@context":["context/"],
+    "@styles":["styles/"],
+    
+    },
   }
 }
